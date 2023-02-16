@@ -1,0 +1,149 @@
+{
+  "Header": {
+    "title": "exposiciones, eventos, conciertos y clases de lo que te imagines",
+    "paragraph": "EN TU BOLSILLO"
+  },
+  "About": {
+    "paragraph": "Soy un estudiante de análisis en sistemas informáticos, y un apasionado practicante de diferentes disciplinas poco convencionales. En mi trayectoria hasta y hacia el encuentro de varias pequeñas comunidades en Buenos Aires, me encontré con lo dificil que puede ser encontrar un lugar para hacer eso que te gusta, o responder a la pregunta ¿Qué me gustaría hacer hoy?",
+    "paragraph2": "Luego, tambien me encontré con que para los practicantes de estas disicplinas fascinantes y poco populares, también era difícil hacerse ver y lograr que sus propuestas lleguen a personas por fuera de esas mismas comunidades",
+    "paragraph3": "Así nació RadarUnder, idea que desarrollé durante el 2022 a modo de ayuda para estas comunidades y como entrega de mi trabajo final"
+  },
+  "AboutProject": {
+    "paragraph": "RadarUnder es una applicación mobile con el objetivo de poner en el mapa eventos de todo tipo. Es un \" catálogo\" de todo lo que sucede en Buenos Aires. RadarUnder responde lo más rápido posible a estas 4 preguntas: ¿Qué? ¿Cuándo? ¿Dónde? ¿Quienes?. ",
+    "Why": [
+      "- Enterate de lo que pasa en tu zona",
+      "- Buscá lo que más te interese",
+      "- Encontrá esas clases que nunca supiste como buscar"
+    ],
+    "Why2": [
+      "- Añadí tus propuestas",
+      "- Descrubí nuevos deportes",
+      "- Conectate con gente de tus mismos intereses"
+    ]
+  },
+ 
+
+  "Contact": {
+    "phone": "+54 9 11 2476-7444",
+    "email": "marco.di@davinci.edu.ar",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-question",
+      "title": "Preguntas resueltas",
+      "text": "¿Qué? ¿Cuándo? ¿Dónde? ¿Quiénes?"
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Todos participan",
+      "text": "Todos gozan de permisos para crear actividades"
+    },
+    {
+      "icon": "fa fa-globe",
+      "title": "Un mundo de novedades",
+      "text": "Descubrí tantas cosas nuevas que te gustan"
+    },
+    {
+      "icon": "fa fa-recycle",
+      "title": "Categorías infinitas",
+      "text": "Seguiremos añadiendo más siempre"
+    }
+  ],
+  "Gallery": [
+    {
+      "title":"Conciertos",
+      "largeImage":"img/Gallery/concierto.jpg",
+      "smallImage":"img/Gallery/concierto.jpg"
+    },
+    {
+      "title":"Parkour",
+      "largeImage":"img/Gallery/parkour.jpg",
+      "smallImage":"img/Gallery/parkour.jpg"
+    },
+    {
+      "title":"Arte expo",
+      "largeImage":"img/Gallery/arte.jpg",
+      "smallImage":"img/Gallery/arte.jpg"
+    },
+    {
+      "title":"MMA",
+      "largeImage":"img/Gallery/mma.jpg",
+      "smallImage":"img/Gallery/mma.jpg"
+    },
+    {
+      "title":" Taller de carpinteria",
+      "largeImage":"img/Gallery/carpinteria.jpg",
+      "smallImage":"img/Gallery/carpinteria.jpg"
+    },
+    {
+      "title":"Meditación",
+      "largeImage":"img/Gallery/meditacion.jpg",
+      "smallImage":"img/Gallery/meditacion.jpg"
+    },
+    {
+      "title":"Circo",
+      "largeImage":"img/Gallery/circo.jpg",
+      "smallImage":"img/Gallery/circo.jpg"
+    },
+    {
+      "title":"Jam sessions",
+      "largeImage":"img/Gallery/jam-session.jpg",
+      "smallImage":"img/Gallery/jam-session.jpg"
+    },
+    {
+      "title":"Slack line",
+      "largeImage":"img/Gallery/slackline.jpg",
+      "smallImage":"img/Gallery/slackline.jpg"
+    }
+  ],
+  "Portfolio":[
+    {
+      "title":"concierto",
+      "largeImage":"img/portfolio/concierto.jpeg",
+      "smallImage":"img/portfolio/concierto.jpeg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ]
+}
