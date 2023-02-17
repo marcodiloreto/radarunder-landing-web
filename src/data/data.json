@@ -55,95 +55,48 @@
   "Gallery": [
     {
       "title":"Conciertos",
-      "largeImage":"img/Gallery/concierto.jpg",
-      "smallImage":"img/Gallery/concierto.jpg"
+      "largeImage":"img/gallery/concierto.jpg",
+      "smallImage":"img/gallery/concierto.jpg"
     },
     {
       "title":"Parkour",
-      "largeImage":"img/Gallery/parkour.jpg",
-      "smallImage":"img/Gallery/parkour.jpg"
+      "largeImage":"img/gallery/parkour.jpg",
+      "smallImage":"img/gallery/parkour.jpg"
     },
     {
       "title":"Arte expo",
-      "largeImage":"img/Gallery/arte.jpg",
-      "smallImage":"img/Gallery/arte.jpg"
+      "largeImage":"img/gallery/arte.jpg",
+      "smallImage":"img/gallery/arte.jpg"
     },
     {
       "title":"MMA",
-      "largeImage":"img/Gallery/mma.jpg",
-      "smallImage":"img/Gallery/mma.jpg"
+      "largeImage":"img/gallery/mma.jpg",
+      "smallImage":"img/gallery/mma.jpg"
     },
     {
       "title":" Taller de carpinteria",
-      "largeImage":"img/Gallery/carpinteria.jpg",
-      "smallImage":"img/Gallery/carpinteria.jpg"
+      "largeImage":"img/gallery/carpinteria.jpg",
+      "smallImage":"img/gallery/carpinteria.jpg"
     },
     {
       "title":"Meditación",
-      "largeImage":"img/Gallery/meditacion.jpg",
-      "smallImage":"img/Gallery/meditacion.jpg"
+      "largeImage":"img/gallery/meditacion.jpg",
+      "smallImage":"img/gallery/meditacion.jpg"
     },
     {
       "title":"Circo",
-      "largeImage":"img/Gallery/circo.jpg",
-      "smallImage":"img/Gallery/circo.jpg"
+      "largeImage":"img/gallery/circo.jpg",
+      "smallImage":"img/gallery/circo.jpg"
     },
     {
       "title":"Jam sessions",
-      "largeImage":"img/Gallery/jam-session.jpg",
-      "smallImage":"img/Gallery/jam-session.jpg"
+      "largeImage":"img/gallery/jam-session.jpg",
+      "smallImage":"img/gallery/jam-session.jpg"
     },
     {
       "title":"Slack line",
-      "largeImage":"img/Gallery/slackline.jpg",
-      "smallImage":"img/Gallery/slackline.jpg"
-    }
-  ],
-  "Portfolio":[
-    {
-      "title":"concierto",
-      "largeImage":"img/portfolio/concierto.jpeg",
-      "smallImage":"img/portfolio/concierto.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage":"img/gallery/slackline.jpg",
+      "smallImage":"img/gallery/slackline.jpg"
     }
   ]
 }
