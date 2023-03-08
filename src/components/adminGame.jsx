@@ -12,9 +12,8 @@ export const AdminGame = () => {
             setNumbers('')
         }
         if(numbers === '12332122'){
-//console.log!!
-            window.location.port = 5173
-            window.location.hash = ''
+            //console.log!!
+            window.location.port = 3002
             //  = '127.0.0.1:3002';
         }
     }, [numbers])
