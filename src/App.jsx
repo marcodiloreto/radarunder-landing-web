@@ -25,6 +25,7 @@ const App = () => {
 
   return (
     <div>
+
       <Navigation />
       <Header data={pageData.Header} />
       <AboutProject data={pageData.AboutProject}/>
@@ -33,6 +34,7 @@ const App = () => {
       <About data={pageData.About} />
       <Contact data={pageData.Contact} />
     </div>
+
   );
 };
 

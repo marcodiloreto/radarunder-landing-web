@@ -18,19 +18,21 @@ export const Contact = (props) => {
   const clearState = () => setState({ ...initialState });
 
   const handleSubmit = (e) => {
+
     e.preventDefault();
     console.log(name, email, message);
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .sendForm("service_sl7lo64", "template_yoeay0w", e.target, "1Z121XRuTh2VYdEkY")
       .then(
         (result) => {
           console.log(result.text);
-          clearState();
+          clearState()
         },
         (error) => {
           console.log(error.text);
         }
-      );
+        );
+        alert("Enviando mensaje")
   };
   return (
       <div id="contact" style={{paddingBottom:20}}>
@@ -52,9 +54,10 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nombre"
                         required
                         onChange={handleChange}
+                        value={name}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -69,6 +72,7 @@ export const Contact = (props) => {
                         placeholder="Email"
                         required
                         onChange={handleChange}
+                        value={email}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -80,14 +84,17 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Mensaje"
                     required
                     onChange={handleChange}
+                    value={message}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button type="submit" className="btn btn-custom btn-lg"
+                onSubmit={e => handleSubmit(e)}
+                >
                   Enviar
                 </button>
               </form>
@@ -100,7 +107,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-whatsapp"></i> WhatsApp
+                  <i className="fa fa-whatsapp white"></i> WhatsApp
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -108,7 +115,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <i className="fa fa-envelope-o white"></i> Email
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>

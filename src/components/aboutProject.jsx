@@ -4,8 +4,8 @@ export const AboutProject = (props) => {
   return (
     <div id="aboutProject" style={{paddingTop:100, paddingBottom:100}}>
       <div className="container">
+        <div style={{display:"flex", flexDirection:'row-reverse'}}> 
         <div className="row">
-
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>¿Qué es RadarUnder?</h2>
@@ -35,11 +35,12 @@ export const AboutProject = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="hidden-sm col-xs-12 col-md-6">
             {" "}
             <img src="img/aboutProject.jpg" className="img-responsive" alt="" />{" "}
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
