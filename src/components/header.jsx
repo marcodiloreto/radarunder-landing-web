@@ -10,7 +10,7 @@ export const Header = (props) => {
         const a = document.createElement('a');
         a.style.display = 'none';
         a.href = url;
-        a.download = 'filename.apk';
+        a.download = 'RadarUnder - Installer.apk';
         document.body.appendChild(a);
         a.click();
         URL.revokeObjectURL(url);
